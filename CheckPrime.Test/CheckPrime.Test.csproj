@@ -9,8 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="NUnitTestItem1.cs" />
     <Compile Remove="UnitTest.cs" />
     <Compile Remove="UnitTest1.cs" />
+    <Compile Remove="UnitTest4.cs" />
   </ItemGroup>
 
   <ItemGroup>

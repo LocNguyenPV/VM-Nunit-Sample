@@ -4,8 +4,7 @@ using System.Diagnostics;
 namespace CheckPrime.Test;
 
 
-//[TestFixture]
-public class NUnitTestItem1
+public class LifeCycleTest
 {
     private int _sharedResource; // Example: Shared database connection, file path, etc.
 

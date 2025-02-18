@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace CheckPrime.Test
 {
-    [TestFixture]
     public class UnitTest5
     {
-        Services services = new Services();
-
+        Services services;
+        [OneTimeSetUp]
+        public void OneTimeSetup()
+        {
+            services = new Services(); // Initialize your shared resource
+        }
         [Test]
         public void TC1()
         {
@@ -43,6 +46,25 @@ namespace CheckPrime.Test
         public void TC5()
         {
             bool ketQua = services.IsPrime(7);
+            Assert.That(ketQua, Is.True);
+        }
+
+
+        [Test]
+        [TestCase(11)]
+        [TestCase(7)]
+        public void TC_La_So_Nguyen_To(int value)
+        {
+            bool ketQua = services.IsPrime(value);
+            Assert.That(ketQua, Is.True);
+        }
+
+        [Test]
+        [TestCase(4)]
+
+        public void TC_Khong_La_So_Nguyen_To(int value)
+        {
+            bool ketQua = services.IsPrime(value);
             Assert.That(ketQua, Is.False);
         }
     }
