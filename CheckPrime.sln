@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckPrime", "CheckPrime\CheckPrime.csproj", "{764C348A-F5B1-4484-87E1-5CB9E978B4D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckPrime.Test", "CheckPrime.Test\CheckPrime.Test.csproj", "{CA1E7A7D-541B-4220-AE7A-2D5C48A629DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckPrime.Test.xUnit", "CheckPrime.Test.xUnit\CheckPrime.Test.xUnit.csproj", "{EE795AB7-40CD-49A1-BC43-2A523B128880}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{764C348A-F5B1-4484-87E1-5CB9E978B4D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{764C348A-F5B1-4484-87E1-5CB9E978B4D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{764C348A-F5B1-4484-87E1-5CB9E978B4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{764C348A-F5B1-4484-87E1-5CB9E978B4D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA1E7A7D-541B-4220-AE7A-2D5C48A629DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA1E7A7D-541B-4220-AE7A-2D5C48A629DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA1E7A7D-541B-4220-AE7A-2D5C48A629DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA1E7A7D-541B-4220-AE7A-2D5C48A629DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE795AB7-40CD-49A1-BC43-2A523B128880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE795AB7-40CD-49A1-BC43-2A523B128880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE795AB7-40CD-49A1-BC43-2A523B128880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE795AB7-40CD-49A1-BC43-2A523B128880}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

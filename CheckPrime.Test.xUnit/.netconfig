@@ -1,0 +1,6 @@
+[ReportGenerator]
+	reports = "coverage.xml"
+	targetdir = "C:\\report"
+	reporttypes = "Latex;HtmlSummary"
+	assemblyfilters = "+Test;-Test"
+	classfilters = "+Test2;-Test2"
